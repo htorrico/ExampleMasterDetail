@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ExampleMasterDetail.Views.LocalmageDemo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Image de forma local Xaml" />
+            <Image Source="imagen.png" />
+            <Label Text="Image UriSource Xaml" />
+            <Image Source="https://blogs.encamina.com/piensa-en-software-desarrolla-en-colores/wp-content/uploads/sites/21/2015/10/xamarin-logo.png" />
+            <Label Text="example-app.png gets downloaded from xamarin.com" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

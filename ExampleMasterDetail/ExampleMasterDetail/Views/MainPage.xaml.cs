@@ -60,6 +60,9 @@ namespace ExampleMasterDetail.Views
                     case (int)MenuItemType.EntryCode:
                         MenuPages.Add(id, new NavigationPage(new EntryCode()));                                            
                         break;
+                    case (int)MenuItemType.LocalImagenDemo:
+                        MenuPages.Add(id, new NavigationPage(new LocalmageDemo()));
+                        break;
                 }
             }
 

@@ -29,7 +29,8 @@ namespace ExampleMasterDetail.Views
                 new HomeMenuItem {Id = MenuItemType.EntryCode, Title="Entry Code" },
                 new HomeMenuItem {Id = MenuItemType.EditorDemo, Title="Editor Demo" },
                 new HomeMenuItem {Id = MenuItemType.EditorCode, Title="Editor Code" },
-                new HomeMenuItem {Id = MenuItemType.DatePickerDemo, Title="Datepicker Demo" }                
+                new HomeMenuItem {Id = MenuItemType.DatePickerDemo, Title="Datepicker Demo" },
+                new HomeMenuItem {Id = MenuItemType.LocalImagenDemo, Title="Local y URL Image Demo" }
             };
 
             ListViewMenu.ItemsSource = menuItems;

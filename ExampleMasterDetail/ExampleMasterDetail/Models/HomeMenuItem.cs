@@ -18,7 +18,9 @@ namespace ExampleMasterDetail.Models
         EntryCode,
         EditorDemo,
         EditorCode,
-        DatePickerDemo                  
+        DatePickerDemo   ,
+        LocalImagenDemo,
+
     }
     public class HomeMenuItem
     {
