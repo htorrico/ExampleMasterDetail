@@ -32,15 +32,33 @@ namespace ExampleMasterDetail.Views
                 {
                     case (int)MenuItemType.Browse:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));
+                        break;                    
+                    case (int)MenuItemType.ButtonDemo:
+                        MenuPages.Add(id, new NavigationPage(new ButtonDemo()));
                         break;
-                    case (int)MenuItemType.About:
-                        MenuPages.Add(id, new NavigationPage(new AboutPage()));
+                    case (int)MenuItemType.ButtonCode:
+                        MenuPages.Add(id, new NavigationPage(new ButtonCode()));
                         break;
-                    case (int)MenuItemType.Example:
-                        MenuPages.Add(id, new NavigationPage(new Example()));
+                    case (int)MenuItemType.DatePickerDemo:
+                        MenuPages.Add(id, new NavigationPage(new DatePickerDemo()));
                         break;
-                    case (int)MenuItemType.Example2:
-                        MenuPages.Add(id, new NavigationPage(new ExamplePage2()));
+                    case (int)MenuItemType.LabelDemo:
+                        MenuPages.Add(id, new NavigationPage(new LabelDemo()));
+                        break;
+                    case (int)MenuItemType.LabelCode:
+                        MenuPages.Add(id, new NavigationPage(new LabelCode()));
+                        break;
+                    case (int)MenuItemType.EditorDemo:
+                        MenuPages.Add(id, new NavigationPage(new EditorDemo()));
+                        break;
+                    case (int)MenuItemType.EditorCode:
+                        MenuPages.Add(id, new NavigationPage(new EditorCode()));
+                        break;
+                    case (int)MenuItemType.EntryDemo:
+                        MenuPages.Add(id, new NavigationPage(new EntryDemo()));
+                        break;
+                    case (int)MenuItemType.EntryCode:
+                        MenuPages.Add(id, new NavigationPage(new EntryCode()));                                            
                         break;
                 }
             }

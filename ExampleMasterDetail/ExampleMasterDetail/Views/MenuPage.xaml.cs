@@ -20,11 +20,16 @@ namespace ExampleMasterDetail.Views
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
-                new HomeMenuItem {Id = MenuItemType.About, Title="About" },
-                //HFTM
-                new HomeMenuItem {Id = MenuItemType.Example, Title="Example" },
-                new HomeMenuItem {Id = MenuItemType.Example, Title="Primera Pagina" },
+                new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },               
+                new HomeMenuItem {Id = MenuItemType.ButtonDemo, Title="Button Demo" },
+                new HomeMenuItem {Id = MenuItemType.ButtonCode, Title="Button Code" },
+                new HomeMenuItem {Id = MenuItemType.LabelDemo, Title="Label Demo" },
+                new HomeMenuItem {Id = MenuItemType.LabelCode, Title="Label Code" },
+                new HomeMenuItem {Id = MenuItemType.EntryDemo, Title="Entry Demo" },
+                new HomeMenuItem {Id = MenuItemType.EntryCode, Title="Entry Code" },
+                new HomeMenuItem {Id = MenuItemType.EditorDemo, Title="Editor Demo" },
+                new HomeMenuItem {Id = MenuItemType.EditorCode, Title="Editor Code" },
+                new HomeMenuItem {Id = MenuItemType.DatePickerDemo, Title="Datepicker Demo" }                
             };
 
             ListViewMenu.ItemsSource = menuItems;

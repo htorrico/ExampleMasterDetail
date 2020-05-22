@@ -9,7 +9,16 @@ namespace ExampleMasterDetail.Models
         Browse,
         About,
         Example,
-        Example2
+        Example2,
+        ButtonDemo,
+        ButtonCode,
+        LabelDemo,
+        LabelCode,
+        EntryDemo,
+        EntryCode,
+        EditorDemo,
+        EditorCode,
+        DatePickerDemo                  
     }
     public class HomeMenuItem
     {
